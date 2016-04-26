@@ -2,7 +2,9 @@
 <html>
 <body>
 
-	<p>Hello World</p>
-	<p>dududu<p>
+	<h1> 	<?php
+			echo "Hello World";
+			?> 
+	</h1>
 </body>
 </html>
