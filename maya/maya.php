@@ -2,11 +2,13 @@
 <html>
 <body>
 
-	<h1> 	<?php
-			echo "Hello World";
-
-			echo "gg";
-			?> 
-	</h1>
+	<?php
+		$barang = array(
+					array("Laptop"=>"Acer"),
+					array("Mouse"=>"Razer"),
+					array("Keyboard"=>"Genius")
+					);
+		print_r ($barang);	
+	?> 
 </body>
 </html>
