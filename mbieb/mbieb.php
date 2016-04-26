@@ -3,13 +3,11 @@
 <body>
 <pre>
 	 	<?php
-			$hero = array
-			(
-
-				array("OD",2,"mid"),
-				array("WR",3,"mid"),
-				array("Zeus",1,"mid")
-
+			$hero = array(
+			
+				array("nama"=>"OD","lane"=>"mid"),
+				array("nama"=>"WR","lane"=>"bot"),
+				array("nama"=>"Zeus","lane"=>"top")
 			);
 			
 			print_r($hero);
