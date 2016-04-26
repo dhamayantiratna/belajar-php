@@ -2,11 +2,18 @@
 <html>
 <body>
 
-	<h1> 	<?php
-			echo "Hello World";
+	 	<?php
+			$hero = array
+			(
 
-			echo "gg";
+				array("OD",2),
+				array("WR",3),
+				array("Zeus",1)
+
+			);
+
+			print_r($hero);
 			?> 
-	</h1>
+	
 </body>
 </html>
