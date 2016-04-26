@@ -4,13 +4,14 @@
 	<pre>
 	<?php
 		$barang = array(
-					array("Laptop","Acer"),
-					array("Mouse","Razer"),
-					array("Keyboard","Genius")
-					);
+					'Acer'=>'1000',
+					'Asus'=>'2000',
+					'Lenovo'=>'3000');
 		
-		rsort($barang);
+		//rsort($barang);
 		print_r ($barang);	
+		//echo 'You have' .$barang['Laptop'];
+		
 		
 	?> 
 </pre>
